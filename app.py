@@ -50,7 +50,7 @@ def submit():
             db.session.add(data)
             db.session.commit()
             return render_template('success.html')
-        return render_template('index.html')
+        return render_template('error.html')
         
 
 
